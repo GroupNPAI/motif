@@ -2,15 +2,22 @@
 Link to application
 This is the motif´s application. To run, please use the "rodamun.bat". There are the some configurations, so you have to edit it. Use the file "EntradaMotifCOVIDBA17052021_145mun-Semana.txt".
 
+
 explanation:
 
 The motif application (dengueNetMotifCMD) was compiled to be used in the Windows operating system. It is an application created in the C language. This application requires some parameters to be used. Such how:
 
+
 name: Name of the input file, and in this case the one used was "EntradaMotifCOVIDBA17052021_145mun-Semana.txt";
+
 thereshold: It is a model parameter and can be understood from the Supplementary Information.pdf and the article https://doi.org/10.1016/j.physa.2015.07.018;
+
 window: It is a parameter of the model and can be understood from the Supplementary Information.pdf and the article https://doi.org/10.1016/j.physa.2015.07.018;
+
 lag: It is a parameter of the model and can be understood from the Supplementary Information.pdf and the article https://doi.org/10.1016/j.physa.2015.07.018;
+
 tau: It is a parameter of the model and can be understood from the Supplementary Information.pdf and the article https://doi.org/10.1016/j.physa.2015.07.018;
+
 start_day: Parameter that indicates the starting day/week of the data sequence;
 final_day: Parameter that indicates the final day/week of the data sequence;
 Random: Parameter that opens the possibility of using a randomization algorithm. If the parameter value is 1, it will run randomly;
